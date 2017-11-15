@@ -1,0 +1,34 @@
+{
+  "name": "@gu-mcu-eclipse/openocd",
+  "version": "0.0.1",
+  "description": "An xPack that installs the binary files for GNU MCU Eclipse OpenOCD",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnu-mcu-eclipse/openocd-xpack.git"
+  },
+  "keywords": [
+    "xpack",
+    "openocd"
+  ],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "http://liviusdotnet.wordpress.com"
+  },  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnu-mcu-eclipse/openocd-xpack/issues"
+  },
+  "homepage": "https://github.com/gnu-mcu-eclipse/openocd-xpack#readme",
+  "devDependencies": {},
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">7.7.0"
+  },
+  "xpack": {}
+}
