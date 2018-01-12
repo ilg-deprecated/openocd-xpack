@@ -65,7 +65,7 @@ The module currently does not include any documentation metadata
 * open [releases](https://github.com/gnu-mcu-eclipse/openocd/releases) and select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `0.10.0-5.1` 
+* commit all changes, use a message like `0.10.0-5.1` (without `v`npm version 0.10.0-6.1)
 * `npm version 0.10.0-5.1`
 * push all changes to GitHub
 * `npm publish`
