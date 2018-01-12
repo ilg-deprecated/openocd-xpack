@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/openocd",
-  "version": "0.10.0-5.1",
+  "version": "0.10.0-6.1",
   "description": "An xPack that installs the binary files for GNU MCU Eclipse OpenOCD",
   "main": "",
   "scripts": {
