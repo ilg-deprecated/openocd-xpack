@@ -1,5 +1,5 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/openocd.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd) 
-[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/openocd-xpack.svg)](https://github.com/gnu-mcu-eclipse/openocd-xpack/blob/xpack/LICENSE)
+[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/openocd-xpack.svg)](https://github.com/gnu-mcu-eclipse/openocd-xpack/blob/xpack/LICENSE) [![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/openocd.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd/)
 
 
 ## GNU MCU Eclipse OpenOCD binaries
@@ -50,7 +50,7 @@ $ git clone https://github.com/gnu-mcu-eclipse/openocd-xpack.git openocd-xpack.g
 
 ### OpenOCD binaries
 
-The binaries are downloaded from the [gnu-mcu-eclipse/openocd](https://github.com/gnu-mcu-eclipse/openocd) project, the [releases](https://github.com/gnu-mcu-eclipse/openocd/releases) page.
+The binaries are downloaded from the [gnu-mcu-eclipse/openocd.git](https://github.com/gnu-mcu-eclipse/openocd) project, the [releases](https://github.com/gnu-mcu-eclipse/openocd/releases) page.
 
 ### Code standard compliance
 
@@ -62,12 +62,12 @@ The module currently does not include any documentation metadata
 
 ### How to publish
 
-* commit all changes
-* `npm run test` (`fix` included)
-* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v0.1.2_
-* `npm version patch`
-* push all changes to GitHub; this should trigger CI
-* wait for CI tests to complete
+* open [releases](https://github.com/gnu-mcu-eclipse/openocd/releases) and select the latest release
+* update the `baseUrl:` with the file URLs (including the tag/version)
+* from the blog post, copy the SHA & file names
+* commit all changes, use a message like `0.10.0-5.1` 
+* `npm version 0.10.0-5.1`
+* push all changes to GitHub
 * `npm publish`
 
 ## License
