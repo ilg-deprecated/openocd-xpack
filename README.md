@@ -1,5 +1,6 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/openocd.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd) 
-[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/openocd-xpack.svg)](https://github.com/gnu-mcu-eclipse/openocd-xpack/blob/xpack/LICENSE) [![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/openocd.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd/)
+[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/openocd-xpack.svg)](https://github.com/gnu-mcu-eclipse/openocd-xpack/blob/xpack/LICENSE)
+[![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/openocd.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd/)
 
 
 ## The GNU MCU Eclipse OpenOCD binary xPack
@@ -17,16 +18,16 @@ This section is intended for developers who plan to use the OpenOCD binaries.
 
 ### Prerequisites
 
-On all platforms, all is needed is a recent 
-[`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
-[Node.js](https://nodejs.org) command line application. To install 
-`xpm`, follow the instructions from the 
+The only requirement is a recent 
+`xpm`, which is a portable 
+[Node.js](https://nodejs.org) command line application. To install it,
+follow the instructions from the 
 [`xpm`](https://www.npmjs.com/package/xpm) page.
 
 ### Easy install
 
 The xPack is available as 
-[`@gnu-mcu-eclipse/openocd`](https://www.npmjs.com/package/gnu-mcu-eclipse/openocd)
+[`@gnu-mcu-eclipse/openocd`](https://www.npmjs.com/package/@gnu-mcu-eclipse/openocd)
 from the `npmjs.com` repository; with `xpm` available, installing 
 the latest version of the package is quite easy:
 
@@ -50,7 +51,7 @@ $ xpm uninstall @gnu-mcu-eclipse/openocd --global
 
 ## Developer info
 
-### xPack git repo
+### The xPack git repo
 
 The few xPack source files are available from GitHub:
 
@@ -58,7 +59,7 @@ The few xPack source files are available from GitHub:
 $ git clone https://github.com/gnu-mcu-eclipse/openocd-xpack.git openocd-xpack.git
 ```
 
-### OpenOCD binaries
+### Binary files
 
 The binaries are not stored on the `npmjs.com` server, but are downloaded from  
 the [releases](https://github.com/gnu-mcu-eclipse/openocd/releases) 
