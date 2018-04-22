@@ -4,6 +4,8 @@ Changes in reverse chronological order.
 
 ### v0.10.0-7.3 (2018-04-22)
 
+- README update
+
 ### v0.10.0-7.2 (2018-04-22)
 
 - package.json: add DLL copy
