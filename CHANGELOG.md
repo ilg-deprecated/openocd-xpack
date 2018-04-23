@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v0.10.0-7.4 (2018-04-23)
+
+- pacakge.json: remove DLL links (no longer needed since xpm 0.4.x)
+
 ### v0.10.0-7.3 (2018-04-22)
 
 - README update
