@@ -60,15 +60,7 @@
       }
     },
     "bin": {
-      "openocd": "./.content/bin/openocd",
-      "libgcc_s_seh-1.dll": {
-        "path": "./.content/bin/libgcc_s_seh-1.dll",
-        "type": "copy"
-      },
-      "libusb0.dll": {
-        "path": "./.content/bin/libusb0.dll",
-        "type": "copy"
-      }
+      "openocd": "./.content/bin/openocd"
     }
   }
 }
