@@ -34,28 +34,28 @@
   "xpack": {
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/gnu-mcu-eclipse/openocd/releases/download/v0.10.0-7-20180123",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/openocd/releases/download/v0.10.0-8-20180512",
       "skip": 3,
       "platforms": {
         "linux-x86": {
-          "sha256": "c90f2d64d6ee7a32ccad1afc47c9f3376745e3de1fb933adef528be84da48ff0",
-          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-7-20180123-1217-centos32.tgz"
+          "sha256": "6d1baccebc2dd8667556b61e5b93aa83587d0d52430235bb954b364e5cc903e3",
+          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-8-20180512-1921-centos32.tgz"
         },
         "linux-x64": {
-          "sha256": "60c9792fd2959348553d825bed608198b5221548f0a3e58f79525082bd9520a5",
-          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-7-20180123-1217-centos64.tgz"
+          "sha256": "44775b886139ae761b3ceca630651efeced43cbd7ad5683cdb70c5a4e6d83119",
+          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-8-20180512-1921-centos64.tgz"
         },
         "darwin-x64": {
-          "sha256": "5f35ff7cf1db7a342f4347ffedd799e462ab94a69f91e39b09f883212d341cf2",
-          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-7-20180123-1217-osx.tgz"
+          "sha256": "f3fff5c6b72b680a7995d285f442185bff83e3a31842fa2a4f21c5a23dee24f3",
+          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-8-20180512-1921-macos.tgz"
         },
         "win32-x86": {
-          "sha256": "a6a5597cd20613ff0b7f1f5ae87ff3da5194a9712abf409406817a6837c65654",
-          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-7-20180123-1217-win32.zip"
+          "sha256": "7a2bc7b751127535b967a73215788d3a66633e2b33e4edd02bb9d70a1cde7ed9",
+          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-8-20180512-1921-win32.zip"
         },
         "win32-x64": {
-          "sha256": "a9831431aadf274e47a4e3fdf8b6f201a6d9dc32318bdcf2e256d4a41aa104ac",
-          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-7-20180123-1217-win64.zip"
+          "sha256": "1be649d32a2e0895c84da6570d427dee2ed89f48ca6a3547d0d08e311c536ad4",
+          "fileName": "gnu-mcu-eclipse-openocd-0.10.0-8-20180512-1921-win64.zip"
         }
       }
     },

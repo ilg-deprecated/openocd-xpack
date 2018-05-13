@@ -32,7 +32,7 @@ from the `npmjs.com` repository; with `xpm` available, installing
 the latest version of the package is quite easy:
 
 ```console
-$ xpm install @gnu-mcu-eclipse/openocd --global
+$ xpm install --global @gnu-mcu-eclipse/openocd
 ```
 
 Global xPacks are always installed in the user home folder, even on GNU/Linux  
@@ -44,7 +44,7 @@ The GNU MCU Eclipse plug-ins automatically identify binaries installed with
 To remove the installed xPack, the command is similar:
 
 ```console
-$ xpm uninstall @gnu-mcu-eclipse/openocd --global
+$ xpm uninstall --global @gnu-mcu-eclipse/openocd
 ```
 
 (Note: not yet implemented)
