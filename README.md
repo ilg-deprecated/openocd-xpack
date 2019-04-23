@@ -74,8 +74,8 @@ section of the `gnu-mcu-eclipse/openocd` GitHub project.
 select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `0.10.0-5.1` (without `v`)
-* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v0.1.2_
+* commit all changes, use a message like `package.json: update urls for 0.10.0-5.1 release` (without `v`)
+* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v0.10.0-5.1_
 * `npm version 0.10.0-5.1`
 * push all changes to GitHub
 * `npm publish`
